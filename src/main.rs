@@ -142,6 +142,7 @@ struct Cli {
 enum Commands {
     /// Stats about the current repo
     Stats {},
+    /// List remote branches
     List {
         /// use the email to filter the branches by author
         #[arg(short, long)]
