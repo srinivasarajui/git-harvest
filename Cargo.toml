@@ -1,0 +1,12 @@
+[package]
+name = "git-harvest"
+version = "0.1.0"
+edition = "2021"
+authors = ["Srini Raju"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+git2 = "0.18.1"
+dialoguer = "0.11"
+clap = { version = "4.4.8", features = ["derive"] }
